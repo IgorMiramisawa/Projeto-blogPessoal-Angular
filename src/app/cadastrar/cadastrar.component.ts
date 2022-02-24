@@ -39,8 +39,7 @@ alert('A senhas estão incorretas.')
   this.authService.cadastrar(this.user).subscribe((resp : User) => {
     this.user = resp
     this.router.navigate(['/entrar'])
-    alert('Usuário cadastrado com sucesso !')
-
+    alert('Usuário cadastrado com sucesso !') 
   })
 
 }
